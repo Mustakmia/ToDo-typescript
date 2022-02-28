@@ -1,0 +1,16 @@
+.addPersonButton {
+    border-radius: 20px;
+    background-color: lightseagreen;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.addPersonButton:hover {
+    background-color: aquamarine;
+}

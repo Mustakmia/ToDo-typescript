@@ -1,0 +1,105 @@
+.listItem {
+    border-radius: 20px;
+    transition: 0.3s linear;
+    padding: 10px;
+}
+
+.listItem:hover {
+    -webkit-box-shadow: 1px 3px 27px 9px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 1px 3px 27px 9px rgba(66, 68, 90, 1);
+    box-shadow: 1px 3px 27px 9px rgba(66, 68, 90, 1);
+}
+
+.age {
+    color: goldenrod;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: start;
+}
+
+.note {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.less {
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.listContainer {
+    width: 45%;
+}
+
+.listContainer hr {
+    margin: 5px 15px 5px 15px;
+}
+
+.moreButton {
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: lightseagreen;
+    padding: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.namesContainer {
+    margin-left: 10px;
+}
+
+.headContainer {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.headContainer h2 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.listItem img{
+    width: 75px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.leftInfoContainer {
+    display: flex;
+}
+
+.editingTextarea {
+    width: 100%;
+}
+
+.editingForm {
+    padding: 4px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.editingForm input, .editingForm textarea {
+    border: none;
+    border-bottom: 3px solid lightseagreen;
+    margin: 5px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.editingForm input:focus, .editingForm textarea:focus {
+    outline: none;
+}
+
+

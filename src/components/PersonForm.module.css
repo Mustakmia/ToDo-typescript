@@ -1,0 +1,37 @@
+.formContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formInnerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.formInnerContainer input, .formInnerContainer textarea {
+    margin: 5px;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-bottom: 3px solid lightseagreen;
+}
+
+.formInnerContainer input:focus, .formInnerContainer textarea:focus {
+    outline: none;
+}
+
+.addButton {
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: lightseagreen;
+    padding: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
